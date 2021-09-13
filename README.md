@@ -12,3 +12,5 @@ https://infinitelooping.github.io/run-buddy/
 
 ## Contribution
 Made With Love by Travis Lloyd
+
+### ©️2019 Run Buddy, Inc
