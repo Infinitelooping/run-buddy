@@ -27,9 +27,10 @@ body {
 
 header {
     background-color: #39a6b2;
-    padding:20px 25px;
+    padding:20px 35px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1{
@@ -37,7 +38,6 @@ header h1{
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    flex-wrap: wrap;
 }
 
 header a{
@@ -89,6 +89,9 @@ footer a{
 }
 
 /* Hero Section */
+section {
+    padding: 60px;   
+}
 
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -113,10 +116,6 @@ footer a{
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-}
-
-section {
-    padding: 60px;   
 }
 
 .hero-form {
@@ -345,12 +344,15 @@ section {
     }
     header h1 {
         width: 100%;
-        text-align: centerl;
+        text-align: center;
     }
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
     }
     footer h2, footer div {
         text-align: center;
@@ -369,7 +371,7 @@ section {
         flex: 0 70%;
     }
     .contact-info iframe {
-        flex: 1 100%
+        flex: 1 100%;
     }
   }
 
